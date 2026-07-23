@@ -285,7 +285,7 @@ See [`docs/learning/`](./docs/learning) for the full topic index.
 > This section will be filled in once `requirements.txt` and the initial environment setup are established (Phase 1–2).
 
 ```bash
-git clone https://github.com/<your-username>/Black-Ice-Detection-AI.git
+git clone https://github.com/<badiyalkiran04>/Black-Ice-Detection-AI.git
 cd Black-Ice-Detection-AI
 pip install -r requirements.txt
 ```
