@@ -2,6 +2,16 @@
 
 > Project: AI-powered Black Ice Detection Rover
 
+## Learning Objectives
+
+After completing this chapter, you should be able to:
+
+- Understand Python syntax
+- Write reusable functions
+- Work with basic data structures
+- Organise code using modules
+- Build a foundation for AI and Computer Vision development
+
 # Why Python?
 
 Python is the primary programming language used in Artificial Intelligence, Machine Learning, Computer Vision, Robotics, and Data Science.

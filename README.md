@@ -3,9 +3,9 @@
 **A hybrid physics + deep learning rover system for detecting hazardous road surface conditions — Black Ice, Wet Road, Dry Road, and Snow.**
 
 [![Status](https://img.shields.io/badge/status-active--development-yellow)]()
-[![License](https://img.shields.io/badge/license-MIT-blue)]()
-[![Python](https://img.shields.io/badge/python-3.10%2B-blue)]()
-[![Category](https://img.shields.io/badge/category-Computer%20Vision%20%7C%20Robotics%20%7C%20Sensor%20Fusion-lightgrey)]()
+[![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![Category](https://img.shields.io/badge/category-Computer%20Vision%20%7C%20Robotics%20%7C%20Sensor%20Fusion-lightgrey)](./README.md)
 
 ---
 
@@ -285,7 +285,7 @@ See [`docs/learning/`](./docs/learning) for the full topic index.
 > This section will be filled in once `requirements.txt` and the initial environment setup are established (Phase 1–2).
 
 ```bash
-git clone https://github.com/<your-username>/Black-Ice-Detection-AI.git
+git clone https://github.com/<badiyalkiran04>/Black-Ice-Detection-AI.git
 cd Black-Ice-Detection-AI
 pip install -r requirements.txt
 ```
