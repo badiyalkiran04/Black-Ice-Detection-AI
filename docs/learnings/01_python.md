@@ -2,7 +2,7 @@
 
 > Project: AI-powered Black Ice Detection Rover
 
-## Learning Objectives
+# Learning Objectives
 
 After completing this chapter, you should be able to:
 
@@ -40,7 +40,7 @@ These libraries make image processing and AI development much easier.
 
 # Python Concepts Required
 
-Instead of learning every Python feature, I only need the concepts required for AI development.
+Instead of learning every Python feature, You only need the concepts required for AI development.
 
 ## Variables
 
@@ -323,34 +323,36 @@ Used for
 Python will control the following pipeline:
 
 Camera Images
-↓
+
+    ↓
 
 OpenCV Processing
-↓
+
+    ↓
 
 Polarization Difference
 
-↓
+    ↓
 
 Temperature Sensor Reading
 
-↓
+    ↓
 
 CNN Prediction
 
-↓
+    ↓
 
 Physics Model
 
-↓
+    ↓
 
 Hybrid AI Model
 
-↓
+    ↓
 
 Final Decision
 
-↓
+    ↓
 
 Black Ice Detected
 
