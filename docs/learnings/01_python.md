@@ -324,35 +324,35 @@ Python will control the following pipeline:
 
 Camera Images
 
-    ↓
+↓
 
 OpenCV Processing
 
-    ↓
+↓
 
 Polarization Difference
 
-    ↓
+↓
 
 Temperature Sensor Reading
 
-    ↓
+↓
 
 CNN Prediction
 
-    ↓
+↓
 
 Physics Model
 
-    ↓
+↓
 
 Hybrid AI Model
 
-    ↓
+↓
 
 Final Decision
 
-    ↓
+↓
 
 Black Ice Detected
 
