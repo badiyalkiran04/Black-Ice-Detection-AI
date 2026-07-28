@@ -1,8 +1,6 @@
-# 📷 06 — OpenCV for Computer Vision
+# 📷 05 — OpenCV for Computer Vision
 
 > Project: **Black-Ice-Detection-AI**
-
-OpenCV (**Open** **C**omputer **V**ision library) is the primary library used to capture, read, manipulate, and display images and video in this project. Where [`03_numpy.md`](./03_numpy.md) taught you that an image *is* an array, this module teaches you how to actually get that array from a camera and start doing something useful with it.
 
 ---
 
@@ -339,31 +337,6 @@ This function is essentially the skeleton of what `physics_model/` will contain 
 
 ---
 
-## Exercises
-
-1. Write a script that captures a single frame from your webcam and saves it to `dataset/raw/`.
-2. Load a sample road image, convert it to grayscale, and apply Otsu thresholding. Display both the original and the mask side by side.
-3. Simulate two "polarized" frames by applying different brightness offsets to the same source image with NumPy, then compute and threshold their difference.
-4. Write a function that takes a binary mask and returns the number and average area of detected contours.
-5. Benchmark `cv2.resize()` at three different target resolutions and measure the processing time difference for a full thresholding + morphology pipeline.
-
-## Practice Questions
-
-1. Why does OpenCV use BGR instead of RGB, and where does this matter in this project's pipeline?
-2. What's the practical difference between `cap.read()` and `cap.grab()` + `cap.retrieve()` for multi-camera setups?
-3. When would you choose adaptive thresholding over Otsu's method?
-4. Why is a Gaussian blur applied before thresholding rather than after?
-
-## Interview Questions
-
-1. Explain the difference between erosion, dilation, opening, and closing, with an example use case for each.
-2. How would you detect and remove small noise regions after thresholding an image?
-3. What is Otsu's thresholding method, and when does it fail?
-4. How would you synchronize frames from two independent camera feeds with minimal timestamp drift?
-5. Why might you convert an image to HSV instead of working directly in RGB/BGR for certain detection tasks?
-
----
-
 ## Summary
 
 OpenCV is the bridge between the rover's physical cameras and every downstream processing step — capture, color conversion, thresholding, morphology, and contour detection are the exact operations System 1's physics-based pipeline is built from. The BGR convention and dual-camera synchronization technique covered here are the two project-specific details most likely to cause subtle bugs if skipped over.
@@ -375,16 +348,4 @@ OpenCV is the bridge between the rover's physical cameras and every downstream p
 - Thresholding → binary mask; Morphology (open/close) → clean mask; Contours → discrete regions
 - Always filter contours by minimum area to suppress noise
 
-## References
-
-- [OpenCV-Python Official Tutorials](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
-- [OpenCV `cv2.threshold()` documentation](https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html)
-- [OpenCV Morphological Transformations](https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html)
-
 ---
-
-## Next Topic
-
-➡️ [`07_image_processing.md`](./07_image_processing.md) — **Image Processing**
-
-The next module goes deeper into the classical image processing techniques (filtering, edge detection, contrast enhancement) that make System 1's physics-based detection robust to real-world lighting and noise conditions.
