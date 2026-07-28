@@ -1,4 +1,4 @@
-# 🔢 03 — NumPy for AI Development
+# 🔢 02 — NumPy for AI Development
 
 > Project: **Black-Ice-Detection-AI**
 
@@ -525,6 +525,6 @@ NumPy provides the `ndarray` — a fast, memory-efficient, vectorized alternativ
 
 ## Next Topic
 
-➡️ [`04_matplotlib.md`](./04_matplotlib.md) — **Matplotlib for Visualization**
+➡️ [`03_matplotlib.md`](./03_matplotlib.md) — **Matplotlib for Visualization**
 
 In the next module, these arrays get *seen* — plotting sensor readings, visualizing polarization contrast maps, and charting CNN training curves.
